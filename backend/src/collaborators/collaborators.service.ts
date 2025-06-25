@@ -12,4 +12,7 @@ export class CollaboratorsService {
   findAll(): Promise<Collaborator[]> {
     return this.collaboratorModel.findAll();
   }
+  async findByUsername(username: string) {
+    return this.collaboratorModel.findOne({ where: { username } });
+  }
 }
