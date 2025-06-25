@@ -54,8 +54,6 @@ src/assets/tailwind.css
 ```
 
 ```css
-Copiar
-Editar
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
